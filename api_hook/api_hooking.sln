@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "injector", "injector\injector.vcxproj", "{CDB6DA7D-ACC3-48C9-A657-184034287115}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iat_hook_dll", "iat_hook_dll\iat_hook_dll.vcxproj", "{D6BB7621-3121-4252-9D70-41B62C3F8482}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iat_hook_target", "iat_hook_target\iat_hook_sample.vcxproj", "{71754AC5-D562-42D1-9C70-864090744FAA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "inline_hook_dll", "inline_hook_dll\inline_hook_dll.vcxproj", "{02FC9E57-9DD1-4719-B40F-A3C308467447}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eat_hook_dll", "eat_hook_dll\eat_hook_dll.vcxproj", "{6EA17221-E3E9-42A0-A9C0-ECD649D4BA84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDB6DA7D-ACC3-48C9-A657-184034287115}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CDB6DA7D-ACC3-48C9-A657-184034287115}.Debug|Win32.Build.0 = Debug|Win32
+		{CDB6DA7D-ACC3-48C9-A657-184034287115}.Release|Win32.ActiveCfg = Release|Win32
+		{CDB6DA7D-ACC3-48C9-A657-184034287115}.Release|Win32.Build.0 = Release|Win32
+		{D6BB7621-3121-4252-9D70-41B62C3F8482}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6BB7621-3121-4252-9D70-41B62C3F8482}.Debug|Win32.Build.0 = Debug|Win32
+		{D6BB7621-3121-4252-9D70-41B62C3F8482}.Release|Win32.ActiveCfg = Release|Win32
+		{D6BB7621-3121-4252-9D70-41B62C3F8482}.Release|Win32.Build.0 = Release|Win32
+		{71754AC5-D562-42D1-9C70-864090744FAA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71754AC5-D562-42D1-9C70-864090744FAA}.Debug|Win32.Build.0 = Debug|Win32
+		{71754AC5-D562-42D1-9C70-864090744FAA}.Release|Win32.ActiveCfg = Release|Win32
+		{71754AC5-D562-42D1-9C70-864090744FAA}.Release|Win32.Build.0 = Release|Win32
+		{02FC9E57-9DD1-4719-B40F-A3C308467447}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02FC9E57-9DD1-4719-B40F-A3C308467447}.Debug|Win32.Build.0 = Debug|Win32
+		{02FC9E57-9DD1-4719-B40F-A3C308467447}.Release|Win32.ActiveCfg = Release|Win32
+		{02FC9E57-9DD1-4719-B40F-A3C308467447}.Release|Win32.Build.0 = Release|Win32
+		{6EA17221-E3E9-42A0-A9C0-ECD649D4BA84}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6EA17221-E3E9-42A0-A9C0-ECD649D4BA84}.Debug|Win32.Build.0 = Debug|Win32
+		{6EA17221-E3E9-42A0-A9C0-ECD649D4BA84}.Release|Win32.ActiveCfg = Release|Win32
+		{6EA17221-E3E9-42A0-A9C0-ECD649D4BA84}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\share\dbg_msg.cpp">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="eat_hook_dll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\share\dbg_msg.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="eat_hook_dll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="share">
+      <UniqueIdentifier>{6355b341-cf42-44bb-b2fc-ab0fb6f609fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d6ba1331-8913-498d-a970-01b6eb476353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9b0aaf45-a418-4bc0-ad4e-84ff6ff1f22c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
